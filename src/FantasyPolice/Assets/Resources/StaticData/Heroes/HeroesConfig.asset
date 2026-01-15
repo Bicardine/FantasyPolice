@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a71488171d4ee3bc10afd8ee95e17e, type: 3}
+  m_Name: HeroesConfig
+  m_EditorClassIdentifier: 
+  _collection:
+  - _id: Lina
+    _viewData:
+      _icon: {fileID: 21300000, guid: 97b0e8c020d925841bb30900addb25b5, type: 3}
+      _name: Lina
+      _description: The head of our party!
+    _statsConfigData:
+      _power: 5
+  - _id: Kyle
+    _viewData:
+      _icon: {fileID: 21300000, guid: 0c96b5ce568472649aa7276234779eee, type: 3}
+      _name: Kyle
+      _description: Bad warior
+    _statsConfigData:
+      _power: 2
+  - _id: Sara
+    _viewData:
+      _icon: {fileID: 21300000, guid: d18a13b3dea92864f90ebb81d5d38448, type: 3}
+      _name: Sara
+      _description: Nice mage
+    _statsConfigData:
+      _power: 15
+  - _id: Alex
+    _viewData:
+      _icon: {fileID: 21300000, guid: 97b0e8c020d925841bb30900addb25b5, type: 3}
+      _name: Alex
+      _description: Unused character
+    _statsConfigData:
+      _power: 7
