@@ -35,8 +35,9 @@
 если Instance - отображаемых эффектов одного и того же типа будет несколько.
 <img width="671" height="283" alt="StatModifierConfig" src="https://github.com/user-attachments/assets/48fb8882-2380-41ef-977d-92f0f7552f39" />
 
-Пример с Instance эффектом:
+Пример с тем же эффектом, но Instance-типа:
 
+<img width="138" height="195" alt="instance" src="https://github.com/user-attachments/assets/27e5a248-83c0-48d9-ab73-7f36a41a26ec" />
 
 
 Конфиг довольно гибкий (для ТЗ), позволяющий указывать различные модификаторы к статам
