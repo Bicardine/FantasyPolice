@@ -32,7 +32,9 @@
 если Instance - отображаемых эффектов одного и того же типа будет несколько.
 <img width="671" height="283" alt="StatModifierConfig" src="https://github.com/user-attachments/assets/48fb8882-2380-41ef-977d-92f0f7552f39" />
 Конфиг довольно гибкий (для ТЗ), позволяющий указывать различные модификаторы к статам
+
 - Тоже самое про ивенты, где каждый можно настроить.
+
 <img width="493" height="609" alt="EventsConfig" src="https://github.com/user-attachments/assets/b025c3c9-828a-4c7b-a0ee-8f441c634d56" />
 
 - В т.ч. время и тип анимации карт:
