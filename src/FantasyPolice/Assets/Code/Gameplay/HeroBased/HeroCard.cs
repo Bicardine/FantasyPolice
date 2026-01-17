@@ -41,6 +41,11 @@ namespace Gameplay.HeroBased
         public event Action<HeroCard> OnGoToEvent;
         public event Action<HeroCard> OnExitFromEvent;
         public event Action<HeroCard> OnDestroyed;
+        
+        public event Action<IMoveable> OnMoveStarted;
+        public event Action<IMoveable> OnMoveEnded;
+        
+        public bool IsMoving => _movementStrategy.IsWorking;
 
         private const int IncreaseOnUpgrade = 1;
 
@@ -115,8 +120,7 @@ namespace Gameplay.HeroBased
         public void OnUnput()
         {
         }
-
-        public bool IsMoving => _movementStrategy.IsWorking;
+        
         public async UniTask MoveTo(Vector3 at)
         {
             if (_movementStrategy.IsWorking == false)
@@ -126,8 +130,5 @@ namespace Gameplay.HeroBased
             await _movementStrategy.Move(at);
             OnMoveEnded?.Invoke(this);
         }
-
-        public event Action<IMoveable> OnMoveStarted;
-        public event Action<IMoveable> OnMoveEnded;
     }
 }
